@@ -1,0 +1,32 @@
+<mat-menu #menu="matMenu">
+
+  <button mat-menu-item>
+    <mat-icon>home</mat-icon>
+    <span>Home</span>
+  </button>
+
+  <button mat-menu-item>
+    <mat-icon>favorite</mat-icon>
+    <span>Our story</span>
+  </button>
+
+  <button mat-menu-item>
+    <mat-icon>group</mat-icon>
+    <span>Team</span>
+  </button>
+
+  <button mat-menu-item>
+      <mat-icon>today</mat-icon>
+      <span>Appointment</span>
+    </button>
+
+  <button mat-menu-item>
+    <mat-icon>call</mat-icon>
+    <span>Call us</span>
+  </button>
+
+</mat-menu>
+
+<button mat-icon-button [matMenuTriggerFor]="menu">
+  <mat-icon>menu</mat-icon>
+</button>
